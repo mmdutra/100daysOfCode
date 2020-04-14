@@ -1,0 +1,23 @@
+{
+    "name": "mateus/oop",
+    "authors": [
+        {
+            "name": "Mateus Morais",
+            "email": "mmdutra14@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mmoraisd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
